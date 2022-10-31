@@ -6,12 +6,16 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { AuthServiceService } from './Services/auth-service.service';
 import { LoginManagerComponent } from './login-manager/login-manager.component';
+import { SignUpComponent } from './sign-up/sign-up.component';
+import { UpdatedComponent } from './updated/updated.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    LoginManagerComponent
+    LoginManagerComponent,
+    SignUpComponent,
+    UpdatedComponent
  ],
   imports: [
     BrowserModule,

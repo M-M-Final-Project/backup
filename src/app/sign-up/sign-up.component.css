@@ -1,43 +1,18 @@
 body {
-    font-family: Helvetica, sans-serif;
-}
-
-/* Style the links inside the sidenav */
-#mySidenav a {
-    position: absolute;
-    /* Position them relative to the browser window */
-    left: -80px;
-    /* Position them outside of the screen */
-    transition: 0.3s;
-    /* Add transition on hover */
-    padding: 15px;
-    /* 15px padding */
-    width: 100px;
-    /* Set a specific width */
-    text-decoration: none;
-    /* Remove underline */
-    font-size: 15px;
-    /* Increase font size */
-    color: white;
-    /* White text color */
-    border-radius: 0 5px 5px 0;
-    font-family: Helvetica, sans-serif;
-}
-
-#mySidenav a:hover {
-    left: 0;
-    /* On mouse-over, make the elements appear as they should */
-}
-
-
-#Manaager {
-    top: 80px;
-    background-color: #00A79D;
-    /* Blue */
-}
-
-
-.logo-div {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Full-width input fields */
+  input[type=text], input[type=password] ,[type=email]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    /* display: inline-block; */
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  .logo-div {
     background-color: #00A79D;
     height: 140px;
     display: flex;
@@ -70,15 +45,34 @@ body {
     padding-top: 40px;
   }
   
+  span.psw ,span Eml{
+    float: right;
+    padding-top: 3px;
+  }
+  
+  .SignUp{
+    padding-left: 54%;
+  }
   
   /* Modal Content/Box */
   .modal-content {
     background-color: #fefefe;
-    margin: 12% auto 15% auto;
+    margin: 5% auto 15% auto;
     /* 5% from the top, 15% from the bottom and centered */
     border: 1px solid #888;
-    width: 30%;
+    width: 40%;
+    /* Could be more or less, depending on screen size */
   }
+  
+  /* The Close Button (x) */
+  /* .close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+  } */
   
   /* Add Zoom Animation */
   .animate {
@@ -123,7 +117,3 @@ body {
         padding-left: 30%;
       }
   }
-
-
-
-
